@@ -1,0 +1,45 @@
+.header{
+    position:fixed;
+    background:purple;
+    top:0;
+    left:0;
+    right:0;
+    z-index:100;
+    padding:15 25;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-element{
+    list-style: none;
+    display: inline-block;
+}
+
+div.menu{display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner{margin:55px;
+}
+
+.banner-text{
+    text-align: center;
+    color: goldenrod;
+}
+
+.container{
+    max-width: 1140px;
+    padding:0 15px;
+    margin:0 auto;
+}
+
+.section-banner{
+    background: url(img/floor-1256804_1280.jpg);
+    background-size: cover;
+}
+
+*{margin:0;
+ padding:0;
+ font-family: 'Kodchasan', sans-serif;}
