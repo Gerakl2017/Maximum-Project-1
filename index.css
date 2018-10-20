@@ -43,3 +43,25 @@ div.menu{display: flex;
 *{margin:0;
  padding:0;
  font-family: 'Kodchasan', sans-serif;}
+
+ .menu-logo-container{
+display: flex;
+align-items: flex-start;
+}
+.three-pictures{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    opacity: 0.5;
+    z-index: 1;
+    
+}
+.onepicture{width:270px;
+height:200px;
+border:7px solid green;
+opacity: 1;
+background-color: aqua;}
+.aqua{height: 200px;
+width:270px;
+opacity: 0.5;
+z-index: 2; }
