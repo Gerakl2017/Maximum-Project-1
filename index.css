@@ -21,7 +21,9 @@ div.menu{display: flex;
     align-items: center;
 }
 
-.banner{margin:55px;
+.banner{
+    margin:52px;
+    padding: 15px;
 }
 
 .banner-text{
@@ -42,7 +44,8 @@ div.menu{display: flex;
 
 *{margin:0;
  padding:0;
- font-family: 'Kodchasan', sans-serif;}
+ font-family: 'Source Code Pro', monospace;
+}
 
  .menu-logo-container{
 display: flex;
@@ -52,16 +55,77 @@ align-items: flex-start;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    opacity: 0.5;
-    z-index: 1;
     
 }
 .onepicture{width:270px;
 height:200px;
 border:7px solid green;
 opacity: 1;
-background-color: aqua;}
+z-index: 10;
+position: relative;}
+
 .aqua{height: 200px;
 width:270px;
+border:7px solid green;
 opacity: 0.5;
-z-index: 2; }
+z-index: 2;
+position: absolute;
+}
+
+.story_container{
+    padding: 20px;
+    border: 10px seagreen solid;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+    background-color: blanchedalmond;
+    box-shadow: 20px -15px 20px black;
+}
+
+.story_header{
+    text-align: center;
+    padding:20px;
+}
+
+.story{
+    padding: 20px;
+    justify-content: center;
+
+}
+
+.story_source{
+    text-align: right;
+}
+
+.V.line{
+    width: 1px;
+    height: 193px;
+    border: 1px seagreen;
+}
+
+footer{
+    background-image: url(img/Black\ brick\ wall.png)
+}
+
+.text-footer{
+    padding: 20px;
+    text-align: end;
+    color: whitesmoke;
+    background-size: 100% 300px;
+    display: inline;
+}
+
+.vklogo{
+    border: 1px solid black;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+}
+
+.footer_items{
+    padding: 10px;
+}
+
+.site_by{
+    display: inline;
+}
